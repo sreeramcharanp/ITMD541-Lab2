@@ -1,0 +1,173 @@
+/* Flexbox Part 1 */
+
+#flex-section1 ul {
+	align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+}
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
+/* end Flexbox Part 1 */
+
+
+/* Flexbox Part 2 */
+
+#flex-section2 ul {
+	list-style-type: none;
+    display: flex;
+    justify-items: start;
+    padding: 0;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#flex-section2 li {
+	height: auto;
+    width: 1000px;
+}
+.box {
+	padding-left: none;
+  }
+
+#flex-section2 .item1 {
+    margin: 0px;
+}
+
+#flex-section2 .item2 {
+    margin: 0px;
+}
+
+#flex-section2 .item3 {
+    margin: 0px;
+}
+
+/* end Flexbox Part 2 */
+
+
+/* Flexbox Part 3 */
+
+#flex-section3 .box {
+	padding-top: 100px;
+	padding-left: 240px;
+}
+
+#flex-section3 .tags ul {
+	list-style-type: none;
+    display: flex;
+    margin: 1;
+    /* grid-column: 3; */
+    align-content: center;
+    align-items: center;
+    justify-items: start;
+    padding: 0;
+    flex-wrap: wrap;
+}
+nav li {
+   
+}
+/* end Flexbox Part 3 */
+
+
+/* Grid Part 1 */
+
+#grid-section1 .grid {
+	list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.greybox{
+	width: 150px;
+    height: 100px;
+	margin: 6px;
+}
+.box {
+	padding-left: none;
+  }
+
+/* end Grid Part 1 */
+
+
+/* Grid Part 2 */
+
+#grid-section2 .gridboxblue {
+	grid-row: 1/ span 3; grid-column: 2/ span 3;
+	width: 460px;
+    height: 387px;
+}
+
+#grid-section2 .gridboxred {
+	grid-row: 2/span 3; grid-column: 1/ span 3;
+	height: 125px;
+    width: 450px;
+}
+
+/* end Grid Part 2 */
+
+
+/* Grid Part 3 */
+
+#grid-section3 .grid {
+display: grid;
+}
+
+#grid-section3 .box1 {
+	grid-column: 1/4;
+    width: auto;
+
+}
+
+#grid-section3 .box2 {
+	grid-row: 2/5; grid-column: 2/4;
+	width: 220px;
+    height: 300px;
+}
+
+#grid-section3 .box3 {
+	grid-row: 2/5; grid-column: 1/2;
+	width: 450px;
+    height: 300px;
+}
+
+#grid-section3 .box4 {
+	grid-column: 1/4;
+    width: auto;
+
+}
+
+/* end Grid Part 3 */
+
+
+/* Transition Part */
+
+#transition-section .box a {
+	display: inline-block;
+	background-color: #ccc;
+	color: #000;
+	padding: 20px;
+	text-decoration: none;
+	transition: background-color 3s ease, color 3s ease; /* Unhover duration: 3s */
+
+}
+
+#transition-section .box a:hover {
+	background-color: #cc0000;
+	color: #fff;
+	transition: background-color 0.5s ease, color 0.5s ease; /* Hover duration: 0.5s */
+	  }
+	  
+}
+
+/* end Transition Part */
